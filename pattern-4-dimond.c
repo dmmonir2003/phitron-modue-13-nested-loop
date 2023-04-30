@@ -8,6 +8,7 @@ int main()
     k = 1;
     for (int i = 1; i <= (n * 2) - 1; i++)
     {
+        // line suru
         for (int j = 1; j <= s; j++)
         {
             printf(" ");
@@ -16,13 +17,14 @@ int main()
         {
             printf("*");
         }
+        //  line sesh
 
-        if (i <= n - 1)
+        if (i <= n - 1) // n tomo line ar aga
         {
             s--;
             k = k + 2;
         }
-        else
+        else // n tomo line ar pora
         {
             s++;
             k = k - 2;
